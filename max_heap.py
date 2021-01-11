@@ -18,7 +18,7 @@ def is_root(i):
 
 
 def is_leaf(i, arr):
-	return turn_left(i) > len(arr)
+	return turn_left(i) > len(arr) - 1
 
 
 def is_node(i, arr):
